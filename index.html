@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Samyam - A Freelancer and A Student</title>
+
+        <link rel="stylesheet" href="./style.css">
+
+        <link rel="icon" href="./Assets/my_img.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="./web.js"></script>
+
+        <header>
+            <div class="header">
+                <div class="header-left">
+                    <p class="header-left-text"><span style="color: #32DBC6; font-size: 1.3rem;">Phone:</span> +977-9815309248</p>
+                    <p class="header-left-text"><span style="color: #32DBC6; font-size: 1.3rem;">Email:</span> samyamsharma0729@gmail.com</p>
+                </div>
+                <div class="header-right">
+                    <img class="header-right-icon" src="./Assets/fb_icon.png" onclick="fb();">
+                    <img class="header-right-icon" src="./Assets/insta_icon.png" onclick="insta();">
+                </div>
+            </div>
+
+            <div class="menu-bar">
+                <div class="menu-left">
+                    <img id="my-profile" src="./Assets/my_img.png" onclick="home();" title="Samyam Sharma">
+                    <h1 onclick="home();">Samyam<span style="color: #32DBC6;">.</span></h1>
+                </div>
+                <div class="menu-right">
+                    <button class="menu-button" onclick="home();">Home</button>
+                    <button class="menu-button" onclick="about();">About</button>
+                    <button class="menu-button" onclick="contact();">Contact</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <p id="main-title">Welcome! I am <span style="color: #32DBC6;">Samyam Sharma</span>!</p>
+            <p id="main-subtitle">A Freelancer and A Student</p>
+            <button id="main-button" onclick="contact();">Contact Me</button>
+        </div>
+
+        <div class="skills">
+            <p id="skills-title">My Skills</p>
+            <p id="skills-subtitle">A glimpse into my skillset</p>
+            <div class="skills-cards-container">
+                <div class="skills-card">
+                    <img class="skills-card-icon" src="./Assets/web_dev.png">
+                    <p class="skills-card-title">Basic Web Devlopment</p>
+                    <p class="skills-card-subtitle">I can offer custom website development using HTML, CSS and JavaScript.</p>
+                </div>
+                <div class="skills-card">
+                    <img class="skills-card-icon" src="./Assets/graphics.png">
+                    <p class="skills-card-title">Graphics Designing</p>
+                    <p class="skills-card-subtitle">I can offer light to moderate graphics designing services.</p>
+                </div>
+                <div class="skills-card">
+                    <img class="skills-card-icon" src="./Assets/social_media.png">
+                    <p class="skills-card-title">Social Media Management</p>
+                    <p class="skills-card-subtitle">I can offer social media management services.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about" id="about_id">
+            <p id="about-title">About Me</p>
+            <div class="about-container">
+                <img id="my-image" src="./Assets/my_img.png">
+                <p id="about-name">Samyam Sharma</p>
+                <p id="about-info">A Grade XII Computer Science Student</p>
+                <p id="about-description">I am a Grade XII Computer Science Student with a passion for learning and applying my skills to solve real-world problems. I believe technology has the power to transform lives and I am dedicated to making a positive impact through my work.</p>
+            </div>
+        </div>
+
+        <div class="contact" id="contact_id">
+            <p id="contact-title">Contact Me</p>
+            <div class="contact-box">
+                <div class="contact-box-left">
+                    <p id="contact-box-left-title">Get In Contact</p>
+                    <p id="contact-box-left-subtitle">Collaborate with me for freelancing projects.</p>
+                    <div class="contact-box-left-info">
+                        <img class="contact-box-left-icon" src="./Assets/location.png">
+                        <p class="contact-box-left-description">Biratnagar-14, Morang, Nepal</p>
+                    </div>
+                    <div class="contact-box-left-info">
+                        <img class="contact-box-left-icon" src="./Assets/phone.png">
+                        <p class="contact-box-left-description">+977-9815309248</p>
+                    </div>
+                    <div class="contact-box-left-info">
+                        <img class="contact-box-left-icon" src="./Assets/email.png">
+                        <p class="contact-box-left-description">samyamsharma0729@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-box-right">
+                    <p id="contact-box-right-title">Reach Out To Me</p>
+                    <form>
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Message"></textarea required>
+                        <input type="submit" id="form-submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p id="credits">Developed By <span style="color: #32DBC6;">Samyam Sharma</span></p>
+        </footer>
+    </body>
+</html>
