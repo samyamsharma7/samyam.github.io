@@ -216,6 +216,7 @@ h1
     transition: 0.5s;
     cursor: default;
     gap: 20px;
+    text-align: center;
 }
 
 .skills-card:hover
@@ -300,6 +301,7 @@ h1
     font-family: 'Open Sans', sans-serif;
     color: White;
     font-style: italic;
+    text-align: center;
 }
 
 .contact
